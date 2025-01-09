@@ -111,10 +111,57 @@ pip install numpy
 
 ### Ethical Considerations
 
+1. **Data Integrity**:
+   - The Airbnb dataset used in this project is sourced from Kaggle, ensuring it is publicly available and complies with data-sharing policies.
+
+2. **Privacy**:
+   - No personally identifiable information  is included in the dataset. The analysis focuses solely on variables like prices, room types, and neighborhood information.
+
+3. **Educational Purpose**:
+   - The project is intended for educational purposes only, aimed at demonstrating data engineering and analysis techniques.
+   - The insights derived should not be used for commercial purposes.
+
+4. **Respect for Data Usage Policies**:
+   - The project complies with Airbnb’s data usage guidelines. It refrains from scraping data that is not publicly available.
+
+
 ### Findings from dataset
+
+**1. Highest Rental Price:**
+- Listing ID: `36455809`
+- Listing Price: `$7500.0`
+- Borough: `Staten Island`
+- Neighborhood: `Woodside
+
+**2. Median Rental Price for Each Borough:**
+| Borough       | Median Price |
+|---------------|--------------|
+| Bronx         | $670.0       |
+| Brooklyn      | $7500.0      |
+| Manhattan     | $5100.0      |
+| Queens        | $2600.0      |
+| Staten Island | $300.0       |
+
+**3. Lowest Priced Rental by Borough:**
+| Borough       | Lowest Price |
+|---------------|--------------|
+| Bronx         | $0.0         |
+| Brooklyn      | $0.0         |
+| Manhattan     | $10.0        |
+| Queens        | $10.0        |
+| Staten Island | $13.0        |
+
+**4. Average Rental Price By Room Type:**
+| Room Type         | Average Price |
+|-------------------|----------------|
+| Entire Home/Apt   | $197.17        |
+| Private Room      | $81.64         |
+| Shared Room       | $53.47         |
 
 
 ### References
 
 - Airbnb dataset: [https://www.kaggle.com/datasets/ebrahimelgazar/new-york-city-airbnb-market?select=airbnb\_price.csv](https://www.kaggle.com/datasets/ebrahimelgazar/new-york-city-airbnb-market?select=airbnb_price.csv)
+
+
 
