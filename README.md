@@ -112,6 +112,7 @@ pip install numpy
    - **Filter by Price**: `http://127.0.0.1:5000/api/prices/filter?min_price=100&max_price=500`
    - **Filter by Borough**: `http://127.0.0.1:5000/api/prices/borough/Brooklyn`
    - **Room Types**: `http://127.0.0.1:5000/api/room_types`
+   - **Filter by Neighborhood**: `http://127.0.0.1:5000/api/prices/neighborhood/<neighborhood>`
 
 
 ---
