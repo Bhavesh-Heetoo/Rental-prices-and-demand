@@ -16,6 +16,13 @@ The purpose for our project is to help users better understand the NYC Airbnb ma
 
 The project uses a **PostgreSQL** database to store the cleaned and processed data.
 
+why PostgreSQL was chosen?
+
+- Scalability: PostgreSQL is robust and scalable, making it a reliable choice for handling large datasets like Airbnb listings
+- Features: PostgreSQL offers efficient querying , for operations like filtering by price or neighborhood.
+- Relational Structure: PostgreSQL relational model is well-suited to handle structured data  like our Airbnb dataset.
+
+
 
 ### Why We Chose the Airbnb Dataset
 
